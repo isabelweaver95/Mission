@@ -1,0 +1,53 @@
+/* Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: #ffffff;
+}
+
+/* Content Container */
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Title Section */
+.title h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.title h2 {
+    color: #006EB6;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+
+/* Mission Container */
+.mission-container {
+    text-align: left;
+    margin-top: 30px;
+}
+
+/* Mission Text Paragraph */
+.mission-text {
+    margin-bottom: 20px;
+}
+
+/* Mission List */
+.mission-list {
+    padding-left: 20px; /* Indent list items nicely */
+}
+
+/* Footer Logo */
+.logo {
+    margin-top: 30px;
+    width: 150px;
+    height: auto;
+}

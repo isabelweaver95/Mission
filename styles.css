@@ -6,6 +6,31 @@ body {
     font-size: 20px;
     line-height: 1.5;
     background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Theme Styles */
+body.dark {
+    background-color: #333;
+    color: #ffffff;
+}
+
+body.dark .title h2 {
+    color: #FFFFFF;
+}
+
+/* Theme Selector */
+.theme-selector {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.theme-selector select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
 }
 
 /* Content Container */

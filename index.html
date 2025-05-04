@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div class="theme-selector">
+      <select id="themeSelector">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+      </select>
+    </div>
     
     <div class="content">
       <header class="title">
@@ -31,8 +37,10 @@
         </ol>
       </main>
       <footer>
-        <img src="mission.webp" alt="BYUI logo" class="logo" />
+        <img src="mission.webp" alt="BYUI logo" class="logo" id="logo" />
       </footer>
     </div>
+    
+    <script src="mission.js" defer></script>
   </body>
 </html>
